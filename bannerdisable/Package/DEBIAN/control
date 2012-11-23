@@ -1,0 +1,17 @@
+Package: com.matchstick.bannerdisable
+Name: bannerdisable
+Version: 0.1-1
+Description: 
+Section: Addons (SBSettings)
+Depends: firmware (>= 5.0), sbsettings
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: Matt Clarke
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: 
+

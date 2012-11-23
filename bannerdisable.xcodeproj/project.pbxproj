@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C91E5873166038FA008CDFAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91E5872166038FA008CDFAE /* Foundation.framework */; };
+		C91E5875166038FA008CDFAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91E5874166038FA008CDFAE /* UIKit.framework */; };
+		C91E587E166038FA008CDFAE /* bannerdisable.m in Sources */ = {isa = PBXBuildFile; fileRef = C91E587D166038FA008CDFAE /* bannerdisable.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C91E586F166038FA008CDFAE /* Toggle.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Toggle.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91E5872166038FA008CDFAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C91E5874166038FA008CDFAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C91E5879166038FA008CDFAE /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		C91E587A166038FA008CDFAE /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		C91E587C166038FA008CDFAE /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		C91E587D166038FA008CDFAE /* bannerdisable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bannerdisable.m; sourceTree = "<group>"; };
+		C91E5884166038FA008CDFAE /* 0xdeadfa11 */ = {isa = PBXFileReference; lastKnownFileType = text; name = 0xdeadfa11; path = Package/var/mobile/Library/SBSettings/Toggles/0xdeadfa11; sourceTree = "<group>"; };
+		C91E5886166038FA008CDFAE /* com.matchstick.bannerdisable-ExampleCommand */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "com.matchstick.bannerdisable-ExampleCommand"; path = "Package/var/mobile/Library/SBSettings/Commands/com.matchstick.bannerdisable-ExampleCommand"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C91E586B166038FA008CDFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91E5873166038FA008CDFAE /* Foundation.framework in Frameworks */,
+				C91E5875166038FA008CDFAE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C91E5863166038FA008CDFAE = {
+			isa = PBXGroup;
+			children = (
+				C91E5876166038FA008CDFAE /* bannerdisable */,
+				C91E5871166038FA008CDFAE /* Frameworks */,
+				C91E5870166038FA008CDFAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C91E5870166038FA008CDFAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C91E586F166038FA008CDFAE /* Toggle.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C91E5871166038FA008CDFAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C91E5872166038FA008CDFAE /* Foundation.framework */,
+				C91E5874166038FA008CDFAE /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C91E5876166038FA008CDFAE /* bannerdisable */ = {
+			isa = PBXGroup;
+			children = (
+				C91E587D166038FA008CDFAE /* bannerdisable.m */,
+				C91E5877166038FA008CDFAE /* Package */,
+				C91E587B166038FA008CDFAE /* Supporting Files */,
+			);
+			path = bannerdisable;
+			sourceTree = "<group>";
+		};
+		C91E5877166038FA008CDFAE /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				C91E5878166038FA008CDFAE /* DEBIAN */,
+				C91E587F166038FA008CDFAE /* var */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		C91E5878166038FA008CDFAE /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				C91E5879166038FA008CDFAE /* control.txt */,
+				C91E587A166038FA008CDFAE /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		C91E587B166038FA008CDFAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C91E587C166038FA008CDFAE /* PackageVersion.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C91E587F166038FA008CDFAE /* var */ = {
+			isa = PBXGroup;
+			children = (
+				C91E5880166038FA008CDFAE /* mobile */,
+			);
+			name = var;
+			sourceTree = "<group>";
+		};
+		C91E5880166038FA008CDFAE /* mobile */ = {
+			isa = PBXGroup;
+			children = (
+				C91E5881166038FA008CDFAE /* Library */,
+			);
+			name = mobile;
+			sourceTree = "<group>";
+		};
+		C91E5881166038FA008CDFAE /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C91E5882166038FA008CDFAE /* SBSettings */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		C91E5882166038FA008CDFAE /* SBSettings */ = {
+			isa = PBXGroup;
+			children = (
+				C91E5883166038FA008CDFAE /* Toggles */,
+				C91E5885166038FA008CDFAE /* Commands */,
+			);
+			name = SBSettings;
+			sourceTree = "<group>";
+		};
+		C91E5883166038FA008CDFAE /* Toggles */ = {
+			isa = PBXGroup;
+			children = (
+				C91E5884166038FA008CDFAE /* 0xdeadfa11 */,
+			);
+			name = Toggles;
+			sourceTree = "<group>";
+		};
+		C91E5885166038FA008CDFAE /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				C91E5886166038FA008CDFAE /* com.matchstick.bannerdisable-ExampleCommand */,
+			);
+			name = Commands;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C91E586C166038FA008CDFAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C91E586E166038FA008CDFAE /* bannerdisable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C91E5889166038FA008CDFAE /* Build configuration list for PBXNativeTarget "bannerdisable" */;
+			buildPhases = (
+				C91E586A166038FA008CDFAE /* Sources */,
+				C91E586B166038FA008CDFAE /* Frameworks */,
+				C91E586C166038FA008CDFAE /* Headers */,
+				C91E586D166038FA008CDFAE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bannerdisable;
+			productName = bannerdisable;
+			productReference = C91E586F166038FA008CDFAE /* Toggle.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C91E5865166038FA008CDFAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = C91E5868166038FA008CDFAE /* Build configuration list for PBXProject "bannerdisable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C91E5863166038FA008CDFAE;
+			productRefGroup = C91E5870166038FA008CDFAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C91E586E166038FA008CDFAE /* bannerdisable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C91E586D166038FA008CDFAE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C91E586A166038FA008CDFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91E587E166038FA008CDFAE /* bannerdisable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C91E5887166038FA008CDFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		C91E5888166038FA008CDFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		C91E588A166038FA008CDFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_NAME = "Toggle.$(EXECUTABLE_EXTENSION)";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				INSTALL_PATH = /var/mobile/Library/SBSettings/Toggles/bannerdisable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		C91E588B166038FA008CDFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_NAME = "Toggle.$(EXECUTABLE_EXTENSION)";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				INSTALL_PATH = /var/mobile/Library/SBSettings/Toggles/bannerdisable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C91E5868166038FA008CDFAE /* Build configuration list for PBXProject "bannerdisable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91E5887166038FA008CDFAE /* Debug */,
+				C91E5888166038FA008CDFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C91E5889166038FA008CDFAE /* Build configuration list for PBXNativeTarget "bannerdisable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91E588A166038FA008CDFAE /* Debug */,
+				C91E588B166038FA008CDFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C91E5865166038FA008CDFAE /* Project object */;
+}
