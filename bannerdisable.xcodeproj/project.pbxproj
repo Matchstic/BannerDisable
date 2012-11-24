@@ -16,12 +16,9 @@
 		C91E586F166038FA008CDFAE /* Toggle.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Toggle.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		C91E5872166038FA008CDFAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C91E5874166038FA008CDFAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		C91E5879166038FA008CDFAE /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
 		C91E587A166038FA008CDFAE /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
 		C91E587C166038FA008CDFAE /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
 		C91E587D166038FA008CDFAE /* bannerdisable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bannerdisable.m; sourceTree = "<group>"; };
-		C91E5884166038FA008CDFAE /* 0xdeadfa11 */ = {isa = PBXFileReference; lastKnownFileType = text; name = 0xdeadfa11; path = Package/var/mobile/Library/SBSettings/Toggles/0xdeadfa11; sourceTree = "<group>"; };
-		C91E5886166038FA008CDFAE /* com.matchstick.bannerdisable-ExampleCommand */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "com.matchstick.bannerdisable-ExampleCommand"; path = "Package/var/mobile/Library/SBSettings/Commands/com.matchstick.bannerdisable-ExampleCommand"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +82,6 @@
 		C91E5878166038FA008CDFAE /* DEBIAN */ = {
 			isa = PBXGroup;
 			children = (
-				C91E5879166038FA008CDFAE /* control.txt */,
 				C91E587A166038FA008CDFAE /* control */,
 			);
 			name = DEBIAN;
@@ -135,7 +131,6 @@
 		C91E5883166038FA008CDFAE /* Toggles */ = {
 			isa = PBXGroup;
 			children = (
-				C91E5884166038FA008CDFAE /* 0xdeadfa11 */,
 			);
 			name = Toggles;
 			sourceTree = "<group>";
@@ -143,7 +138,6 @@
 		C91E5885166038FA008CDFAE /* Commands */ = {
 			isa = PBXGroup;
 			children = (
-				C91E5886166038FA008CDFAE /* com.matchstick.bannerdisable-ExampleCommand */,
 			);
 			name = Commands;
 			sourceTree = "<group>";

@@ -1,14 +1,14 @@
 Package: com.matchstick.bannerdisable
-Name: bannerdisable
-Version: 0.1-1
-Description: 
+Name: BannerDisable SBSettings Toggle
+Version: 1.0-1
+Description: Toggles the BannerDisable tweak on/off
 Section: Addons (SBSettings)
-Depends: firmware (>= 5.0), sbsettings
+Depends: firmware (>= 5.0), sbsettings, me.melkhior.bannerdisable
 Conflicts: 
 Replaces: 
 Priority: optional
 Architecture: iphoneos-arm
-Author: Matt Clarke
+Author: matchstick
 dev: 
 Homepage: 
 Depiction: 
